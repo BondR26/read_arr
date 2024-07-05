@@ -1,0 +1,38 @@
+# Visual Studio / Visual Studio Code / Visual C++ build directories
+.vs/
+.vscode/
+ipch/
+Debug/
+Release/
+x64/
+x86/
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.opensdf
+*.log
+*.tlog/
+*.tmp/
+*.tmp_proj/
+*.dbmdl
+*.VC.db
+*.pdb
+*.ilk
+*.aps
+*.meta
+*.obj
+*.opendb
+*.VC.VC.opendb
+
+# NuGet Packages Directory
+packages/
+
+# CMake build files (if applicable)
+CMakeCache.txt
+CMakeFiles/

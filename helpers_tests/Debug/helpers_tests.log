@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  find_intersection.cpp
+  get_number_from_str.cpp
+  sort_arr.cpp
+C:\Users\Administrator\source\repos\read_arr\read_arr\helpers.h(35,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\source\repos\read_arr\helpers_tests\sort_arr.cpp(22): message : see reference to function template instantiation 'void helpers::selectionSort<int>(std::vector<int,std::allocator<int>> &)' being compiled
+C:\Users\Administrator\source\repos\read_arr\read_arr\helpers.h(38,24): warning C4018: '<': signed/unsigned mismatch
+  split_sttring.cpp
+  test.cpp
+  Generating Code...
+  helpers_tests.vcxproj -> C:\Users\Administrator\source\repos\read_arr\Debug\helpers_tests.exe

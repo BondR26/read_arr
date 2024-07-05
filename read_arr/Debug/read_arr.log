@@ -1,0 +1,20 @@
+﻿  policy_factory.cpp
+C:\Users\Administrator\source\repos\read_arr\read_arr\array_transform_policies.h(47,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\source\repos\read_arr\read_arr\num_array.h(53): message : see reference to function template instantiation 'std::vector<int,std::allocator<int>> FindIntersectionPolicy::operator ()<int>(const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &) const' being compiled
+C:\Users\Administrator\source\repos\read_arr\read_arr\num_array.h(52): message : while compiling class template member function 'std::vector<int,std::allocator<int>> ArrayTransformer<int,FindIntersectionPolicy>::run_policy(void)'
+C:\Users\Administrator\source\repos\read_arr\read_arr\policy_factory.cpp(24): message : see reference to class template instantiation 'ArrayTransformer<int,FindIntersectionPolicy>' being compiled
+C:\Users\Administrator\source\repos\read_arr\read_arr\array_transform_policies.h(109,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\source\repos\read_arr\read_arr\num_array.h(53): message : see reference to function template instantiation 'std::vector<int,std::allocator<int>> SortUniqueNumbersOnlyPolicy::operator ()<int>(const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled
+C:\Users\Administrator\source\repos\read_arr\read_arr\num_array.h(52): message : while compiling class template member function 'std::vector<int,std::allocator<int>> ArrayTransformer<int,SortUniqueNumbersOnlyPolicy>::run_policy(void)'
+C:\Users\Administrator\source\repos\read_arr\read_arr\policy_factory.cpp(44): message : see reference to class template instantiation 'ArrayTransformer<int,SortUniqueNumbersOnlyPolicy>' being compiled
+C:\Users\Administrator\source\repos\read_arr\read_arr\helpers.h(35,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\source\repos\read_arr\read_arr\array_transform_policies.h(19): message : see reference to function template instantiation 'void helpers::selectionSort<DigitType>(std::vector<int,std::allocator<int>> &)' being compiled
+          with
+          [
+              DigitType=int
+          ]
+C:\Users\Administrator\source\repos\read_arr\read_arr\num_array.h(53): message : see reference to function template instantiation 'void SortPolicy::operator ()<int>(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &) const' being compiled
+C:\Users\Administrator\source\repos\read_arr\read_arr\num_array.h(52): message : while compiling class template member function 'void ArrayTransformer<int,SortPolicy>::run_policy(void)'
+C:\Users\Administrator\source\repos\read_arr\read_arr\policy_factory.cpp(14): message : see reference to class template instantiation 'ArrayTransformer<int,SortPolicy>' being compiled
+C:\Users\Administrator\source\repos\read_arr\read_arr\helpers.h(38,24): warning C4018: '<': signed/unsigned mismatch
+  read_arr.vcxproj -> C:\Users\Administrator\source\repos\read_arr\Debug\read_arr.exe
